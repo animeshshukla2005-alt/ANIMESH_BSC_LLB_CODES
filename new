@@ -1,0 +1,10 @@
+// prg to tell SI.
+// developed by Animesh date: 03/09/2025
+# include <stdio.h>
+void main()
+{
+int p,r,t;
+printf("Enter the principal, rate and time\n");
+scanf("%d%d%d",&p,&r,&t);
+printf("Simple interest is = %.3f", (p*r*t)/100.0);
+}
