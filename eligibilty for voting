@@ -1,0 +1,10 @@
+//prg to find if a person if eligible to vote or not.
+//developed by Animesh date:11/09/2025
+#include <stdio.h>
+void main()
+{
+    int a;
+    printf("Enter the Age of the person\n");
+    scanf("%d",&a);
+    printf("the Person is %s",a>=18?"eligible to vote":"not eligible to vote");
+}
