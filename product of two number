@@ -1,0 +1,10 @@
+//prg to find product of two numbers.
+//developed by Animesh date:11/09/2025
+#include <stdio.h>
+void main()
+{
+    int a,b;
+    printf("Enter the numbers\n");
+    scanf("%d%d",&a,&b);
+    printf("the product is = %d",a*b);
+}
