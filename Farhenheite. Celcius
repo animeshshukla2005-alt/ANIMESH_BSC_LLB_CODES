@@ -1,0 +1,10 @@
+// Program to convert celsius to fahrenheit
+// Developed by Ramendra, Date:27/08/2025
+#include <stdio.h>
+void main()
+{
+    float c;
+    printf("ENTER THE CELSIUS\n");
+    scanf("%f", &c);
+    printf("Fahrenheit = %.3f", (c*9/5)+32);
+}
