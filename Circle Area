@@ -1,0 +1,10 @@
+//prg to find area of a circle.
+//developed by Animesh date:11/09/2025
+#include <stdio.h>
+void main()
+{
+    int a;
+    printf("Enter the Radius of the circle\n");
+    scanf("%d",&a);
+    printf("the area is = %.3f",3.14*a*a);
+}
