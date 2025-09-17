@@ -1,0 +1,14 @@
+// prg to check whether numeber is even or odd.
+// developed by Animesh date: 03/09/2025
+# include <stdio.h>
+void main()
+{
+    int a;
+    printf("ENTER THE NUMBER\n");
+    scanf("%d",&a);
+    if(a%2==0)
+        printf("%d is Even", a);
+    else
+        printf("%d is odd", a);
+
+}
