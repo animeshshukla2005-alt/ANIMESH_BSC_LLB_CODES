@@ -1,0 +1,18 @@
+// prg to check whether a number is positive, negative or zero.
+// developed by Animesh date: 03/09/2025
+# include <stdio.h>
+void main()
+{
+int a;
+printf("Enter the number\n");
+scanf("%d",&a);
+if(a>0||a<0)
+{
+    if(a>0)
+       printf("%d is positive", a);
+    else
+        printf("%d is negative", a);
+}
+else
+    printf("%d is zero", a);
+}
