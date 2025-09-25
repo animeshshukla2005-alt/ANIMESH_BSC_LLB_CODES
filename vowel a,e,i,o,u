@@ -1,0 +1,15 @@
+//prg to check if a character is a vowel
+//developed by Animesh 
+# include <stdio.h>
+void main()
+{
+    char a;
+    printf("Enter the character\n");
+    scanf("%c",&a);
+    switch(tolower(a))
+    {
+        case 'a': case 'e': case 'i': case 'o': case'u': printf("Vowel");
+        break;
+        default: printf("NOT A VOWEL");
+    }
+}
